@@ -1,0 +1,44 @@
+@import 'vars';
+
+body {
+  background-color: $ark-dark-blue;
+  color: $ark-white;
+  font-family: sans-serif;
+  font-size: 16px;
+  p {
+    margin: 0;
+  }
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba($ark-black, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+}
+
+.btn-green {
+  color: $ark-white;
+  font-weight: bold;
+  background: $ark-green;
+  border-radius: 0;
+  border:0;
+  width: 14rem;
+  height: 3rem;
+  &:active, &.active {
+    box-shadow: $focus-shadow;
+    background: darken($ark-green, 5);
+  }
+}

@@ -1,0 +1,20 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/mixins/breakpoints';
+@import '~bootstrap/scss/variables';
+
+
+$ark-black: #000000;
+$ark-white: #ffffff;
+$ark-green: #1bb192;
+$ark-red: #e13f33;
+$ark-blue: #2c84b6;
+$ark-dark-blue: #263445;
+
+
+$status-height: 6rem;
+$footer-height: 9rem;
+$platform-height: 1rem;
+
+$border-style: 1px solid rgba($ark-white, 0.4);
+$border-radius: 5px;
+$focus-shadow: 3px 3px 0 $ark-white inset, -3px -3px 0 $ark-white inset;
